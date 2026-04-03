@@ -7,7 +7,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="ENTER_YOUR_OPENAI_KEY",
 )
 
 def generate_itinerary(user_query):
